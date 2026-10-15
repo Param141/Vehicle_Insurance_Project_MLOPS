@@ -24,12 +24,14 @@ class S3Client:
             S3Client.s3_resource = boto3.resource('s3',
                                             aws_access_key_id=__access_key_id,
                                             aws_secret_access_key=__secret_access_key,
-                                            region_name=region_name
+                                            region_name=region_name,
+                                            verify=False
                                             )
             S3Client.s3_client = boto3.client('s3',
                                         aws_access_key_id=__access_key_id,
                                         aws_secret_access_key=__secret_access_key,
-                                        region_name=region_name
+                                        region_name=region_name,
+                                        verify=False
                                         )
         self.s3_resource = S3Client.s3_resource
         self.s3_client = S3Client.s3_client
