@@ -98,7 +98,7 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 3. Configure S3 Bucket and add access keys in `constants.__init__.py`.
 
 ### Step 13: Model Evaluation and Pushing to S3
-- Create an S3 bucket named `my-model-mlopsproj` in the `us-east-1` region.
+- Create an S3 bucket named `vehicle-mlops-bucket` in the `ap-southeast-2` region.
 - Develop code to push/pull models to/from the S3 bucket in `src.aws_storage` and `entity/s3_estimator.py`.
 
 ---
@@ -131,7 +131,7 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 
 ### Step 18: Final Steps
 1. Open the 5080 port on the EC2 instance.
-2. Access the deployed app by visiting `http://<public_ip>:5080`.
+2. Access the deployed app by visiting `http://<public_ip>:5000`.
 
 ---
 
