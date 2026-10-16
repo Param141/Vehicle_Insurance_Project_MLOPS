@@ -162,3 +162,58 @@ cython_debug/
 #.idea/
 
 artifact/
+
+
+# =====================================================================
+# MLOps, Artifacts, Models & Datasets
+# =====================================================================
+# Model binaries and weights
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Pipeline artifact directories (singular and plural)
+artifact/
+artifacts/
+saved_models/
+prediction_output/
+final_model/
+
+# Local raw datasets and training data exports
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+dataset/
+data/
+
+# =====================================================================
+# Logs & Application Output
+# =====================================================================
+logs/
+*.log
+
+# =====================================================================
+# Security, Environment Variables & AWS Credentials
+# =====================================================================
+*.env
+.env.*
+*secret*
+*credential*
+aws_credentials
+config.ini
+secrets.yaml
+
+# =====================================================================
+# IDE, OS & Editor Caches
+# =====================================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
