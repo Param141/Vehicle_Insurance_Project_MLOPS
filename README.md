@@ -27,6 +27,46 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 
 ---
 
+## 📸 Production Deployment & Pipeline Showcase
+
+### 1. Automated CI/CD Execution (GitHub Actions)
+> *End-to-end continuous integration and deployment pipeline executing on push to `main`, validating code, building the Docker container, pushing to AWS ECR, and orchestrating deployment on an AWS EC2 self-hosted runner.*
+
+![GitHub Actions CI/CD Pipeline](images/CI_CD_pipeline%20.png)
+
+---
+
+### 2. Container Registry Artifact (AWS ECR)
+> *Private Elastic Container Registry repository (`vehicle-proj`) in `ap-southeast-2` storing versioned application container images.*
+
+![AWS ECR Repository](images/ecr.png)
+
+---
+
+### 3. Production Web Application (FastAPI Interface)
+> *Real-time inference user interface served live on port 5000 from the containerized FastAPI service on AWS EC2.*
+
+![FastAPI Web Interface](images/web_ui.png)
+
+---
+
+### 4. Live Model Prediction Response
+> *Dynamic prediction result (`Response-Yes` / `Response-No`) rendered in real time using the preprocessor and model artifacts retrieved from AWS S3.*
+
+![Model Inference Response](images/response.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 📊 MongoDB Setup and Data Management
 
 ### Step 4: MongoDB Atlas Configuration
