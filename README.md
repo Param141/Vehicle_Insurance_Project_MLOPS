@@ -32,7 +32,7 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 ### 1. Automated CI/CD Execution (GitHub Actions)
 > *End-to-end continuous integration and deployment pipeline executing on push to `main`, validating code, building the Docker container, pushing to AWS ECR, and orchestrating deployment on an AWS EC2 self-hosted runner.*
 
-![GitHub Actions CI/CD Pipeline](images/CI_CD_pipeline%20.png)
+![GitHub Actions CI/CD Pipeline](images/CI_CD_pipeline.png)
 
 ---
 
@@ -170,7 +170,7 @@ Welcome to this MLOps project, designed to demonstrate a robust pipeline for man
 3. Connect EC2 as a self-hosted runner on GitHub.
 
 ### Step 18: Final Steps
-1. Open the 5080 port on the EC2 instance.
+1. Open the 5000 port on the EC2 instance.
 2. Access the deployed app by visiting `http://<public_ip>:5000`.
 
 ---
